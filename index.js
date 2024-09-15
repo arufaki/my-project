@@ -5,4 +5,4 @@ function increment(x, y) {
     }, 8000);
 }
 
-increment(1, 4);
+increment(4, 4);
