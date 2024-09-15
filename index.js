@@ -1,6 +1,8 @@
 function increment(x, y) {
     let result = x * y;
-    console.log(result);
+    setTimeout(() => {
+        console.log(result);
+    }, 8000);
 }
 
 increment(1, 4);
